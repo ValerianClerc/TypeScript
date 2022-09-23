@@ -536,7 +536,7 @@ namespace ts {
                 reportDiagnostic(createCompilerDiagnostic(Diagnostics.Cannot_find_a_tsconfig_json_file_at_the_current_directory_Colon_0, normalizePath(sys.getCurrentDirectory())));
             }
             else {
-                sys.write(getDiagnosticText(Diagnostics.You_must_either_pass_command_line_arguments_into_tsc_or_create_a_tsconfig_json_file_at_the_current_directory_Colon_0, normalizePath(sys.getCurrentDirectory())) + sys.newLine);
+                sys.write(getDiagnosticText(Diagnostics.You_must_either_pass_command_line_inputs_into_tsc_or_create_a_tsconfig_json_file_at_the_current_directory_Colon_0, normalizePath(sys.getCurrentDirectory())) + sys.newLine);
                 printVersion(sys);
                 printHelp(sys, commandLine);
             }
