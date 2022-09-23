@@ -7517,5 +7517,9 @@
     "The value '{0}' cannot be used here.": {
         "category": "Error",
         "code": 18050
+    },
+    "You must either pass command line arguments into tsc, or create a tsconfig.json file at the current directory: {0}.": {
+        "category": "Error",
+        "code": 18051
     }
 }
